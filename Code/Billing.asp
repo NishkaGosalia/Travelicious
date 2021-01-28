@@ -128,7 +128,7 @@
 		<%
 			set con=Server.CreateObject("ADODB.connection")
 			con.Provider="Microsoft.Jet.OLEDB.4.0"
-			con.open"C:/inetpub/wwwroot/Mini_Project/TraveliciousDatabase.mdb"
+			con.open"C:/inetpub/wwwroot/Code/TraveliciousDatabase.mdb"
 			set rs=Server.CreateObject("ADODB.RecordSet")
 			rs.Open"TourDetails",con,0,3,2
 			rs.AddNew
