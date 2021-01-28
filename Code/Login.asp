@@ -3,7 +3,7 @@
 		Dim con,rs,u,p,sql
 		set con=Server.CreateObject("ADODB.Connection")
 		con.Provider="Microsoft.Jet.OLEDB.4.0"
-		con.Open"C:/inetpub/wwwroot/Mini_Project/TraveliciousDatabase.mdb"
+		con.Open"C:/inetpub/wwwroot/Code/TraveliciousDatabase.mdb"
 		set rs=Server.CreateObject("ADODB.Recordset")
 		u=Request.form("username")
 		p=Request.form("password")
